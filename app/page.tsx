@@ -21,6 +21,7 @@ export default function Page() {
           <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
           <a href="#process" onClick={() => setMenuOpen(false)}>Our process</a>
           <a href="#work" onClick={() => setMenuOpen(false)}>Our work</a>
+          <a href="/gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
           <a href="/about" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
         </nav>
