@@ -3,7 +3,7 @@
 import { ArrowDownRight, ArrowUpRight, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 
-const weddingImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-gaaobvQVI0MiInJiXIVoqHBU9uSRpz.png'
+const weddingImage = 'https://assets.cntraveller.in/photos/68ca6b10ccf64890c65bf5fd/master/w_1600%2Cc_limit/DWG%2520Hotel%2520Round%2520up-Samode%2520Palace.jpg'
 
 const services = [
   ['01', 'Weddings & celebrations', 'Romantic, personal, and beautifully paced celebrations designed around your story.'],
@@ -42,7 +42,7 @@ export default function Page() {
 
       <section className="light-section testimonial-preview"><p className="light-kicker"><span /> Kind words</p><blockquote>“Momentum understood the feeling we wanted before we had the words for it.”</blockquote><p className="testimonial-name">— Rhea & Arjun, Goa</p><a className="text-link-dark" href="/testimonials">Read more testimonials <ArrowUpRight size={15} /></a></section>
 
-      <section className="light-section work-light" id="work"><p className="light-kicker"><span /> Selected work</p><h2>A few things<br /><i>we&apos;ve made.</i></h2><div className="work-image"><img src={weddingImage} alt="Wedding celebration details" /></div></section>
+      <section className="light-section work-light" id="work"><p className="light-kicker"><span /> Selected work</p><h2>A few things<br /><i>we&apos;ve made.</i></h2><div className="work-image"><img src={weddingImage} alt="Couple celebrating beneath a colorful wedding ceremony arch" /></div></section>
 
       <section className="light-section contact-light" id="contact"><div><p className="light-kicker"><span /> Your turn</p><h2>Have a good<br /><i>feeling about this?</i></h2></div><div><p>Tell us a little about what you are planning. We will be in touch within two working days.</p><a className="dark-pill" href="mailto:hello@momentum.events">hello@momentum.events <ArrowUpRight size={15} /></a></div></section>
       <footer className="light-footer"><strong>MOMENTUM <sup>™</sup></strong><span>Creating room for meaningful moments.</span><span>New Delhi · Mumbai · Goa</span></footer>
